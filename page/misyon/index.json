@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, ilk evini arayana ve kiracıya belgeli, açık ve baskısız gayrimenkul danışmanlığı sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to give first-time buyers and tenants documented, clear and pressure-free property advice.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا تقديم استشارات عقارية موثقة وواضحة ودون ضغط لمن يبحث عن منزله الأول وللمستأجرين.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t4pd01",
+      "t4ca01"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "home",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {},
+  "update": "2026-11-05T22:24:31.445Z",
+  "date": "2026-05-19"
+}

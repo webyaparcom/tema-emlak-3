@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "İlanlar",
+    "en": "Listings",
+    "ar": "الإعلانات"
+  },
+  "status": "play",
+  "category": "",
+  "id": "yvi9dlb59o",
+  "url": "",
+  "path": "ilanlar",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [
+      "s5nxlr"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Satılık ve kiralık ilanlar; tür, oda, m², fiyat ve semt filtresiyle. Her ilanda yetki belgesi no (örnek).",
+    "en": "Listings for sale and rent with type, rooms, area, price and district filters. Authorization number on every listing (sample).",
+    "ar": "إعلانات للبيع والإيجار مع تصفية حسب النوع والغرف والمساحة والسعر والحي. رقم شهادة التفويض في كل إعلان (نموذجي)."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "İlanlar",
+    "en": "Listings",
+    "ar": "الإعلانات"
+  },
+  "keyword": {
+    "tr": "ilan, satılık, kiralık, daire",
+    "en": "listings, for sale, for rent, apartment",
+    "ar": "إعلانات، للبيع، للإيجار، شقة"
+  },
+  "text": {},
+  "update": "2026-11-05T22:24:31.420Z",
+  "date": "2026-05-19",
+  "icon": "real_estate_agent"
+}

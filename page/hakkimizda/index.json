@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "category": "",
+  "text": {
+    "tr": "<h2>Hakkımızda</h2><p>Yuva Nokta, İzmir merkezli, ilk ev alıcısına ve kiracıya odaklanan kurgusal bir demo emlak markasıdır. Her ilanda yetki belgesi numarası görünür; fiyat, metrekare ve konum açıkça yazılır, gösterim randevusu çevrimiçi oluşturulur.</p>",
+    "en": "<h2>About us</h2><p>Yuva Nokta is a fictional, Izmir-based demo real-estate brand focused on first-time buyers and tenants. Every listing shows its authorization number; price, area and location are stated clearly, and viewings are booked online.</p>",
+    "ar": "<h2>من نحن</h2><p>يوفا نقطة علامة عقارية تجريبية افتراضية مقرّها إزمير تركّز على مشتري المنزل الأول والمستأجرين. يظهر رقم شهادة التفويض في كل إعلان، وتُذكر الأسعار والمساحات والمواقع بوضوح، وتُحجز المعاينات عبر الإنترنت.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t4in01",
+      "6difds"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 0,
+  "icon": "info",
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Yuva Nokta hakkında.",
+    "en": "About Yuva Nokta.",
+    "ar": "نبذة عن يوفا نقطة."
+  },
+  "keyword": {
+    "tr": "hakkımızda, emlak",
+    "en": "about, real estate",
+    "ar": "من نحن، عقارات"
+  },
+  "update": "2026-11-05T22:24:31.441Z",
+  "date": "2026-05-19"
+}

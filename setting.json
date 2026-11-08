@@ -1,0 +1,58 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Yuva Nokta: ilk ev alıcısı ve kiracı dostu satılık-kiralık ilanlar; her ilanda yetki belgesi numarası, çevrimiçi gösterim randevusu. (Demo site)",
+    "en": "Yuva Nokta: first-time-buyer and tenant friendly listings for sale and rent; authorization number on every listing, online viewing appointments. (Demo site)",
+    "ar": "يوفا نقطة: إعلانات بيع وإيجار مناسبة لمشتري المنزل الأول والمستأجرين؛ رقم شهادة التفويض في كل إعلان وحجز معاينة عبر الإنترنت. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "emlak, ilk ev, kiralık daire, satılık daire, yetki belgesi",
+    "en": "real estate, first home, apartment for rent, apartment for sale, authorization number",
+    "ar": "عقارات، أول منزل، شقة للإيجار، شقة للبيع، شهادة تفويض"
+  },
+  "category": "Kurumsal",
+  "name": "Yuva Nokta",
+  "domain": "emlak-3.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#BE2A4F",
+  "phone": "+90 232 000 00 31",
+  "email": "merhaba@yuvanokta.example",
+  "publishMode": "static",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "font": {
+    "body": "open-sans",
+    "heading": "poppins",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "12px",
+    "--mx-radius-md": "16px",
+    "--mx-radius-lg": "20px",
+    "--mx-radius-xl": "28px",
+    "--mx-shadow-md": "0 24px 60px rgba(60,10,30,.16)",
+    "--mx-dur": "280ms"
+  }
+}

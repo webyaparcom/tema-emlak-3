@@ -1,0 +1,45 @@
+{
+  "name": {
+    "tr": "Projeler",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hs54qzyeyo",
+  "url": "",
+  "path": "projeler",
+  "index": 1,
+  "icon": "domain",
+  "desing": {
+    "header": [],
+    "body": [
+      "vlk09t",
+      "synzlq"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Devam eden ve tamamlanan örnek projeler; görseller temsilidir.",
+    "en": "Ongoing and completed sample projects; images are representative.",
+    "ar": "مشاريع نموذجية قيد الإنجاز ومنجزة؛ الصور تمثيلية."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Projeler",
+    "en": "Projects",
+    "ar": "المشاريع"
+  },
+  "keyword": {
+    "tr": "proje, konut projesi",
+    "en": "projects, housing project",
+    "ar": "مشاريع، مشروع سكني"
+  },
+  "text": {},
+  "update": "2026-11-05T22:24:31.426Z",
+  "date": "2026-05-19"
+}
