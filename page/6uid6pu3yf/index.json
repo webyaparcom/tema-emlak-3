@@ -1,0 +1,41 @@
+{
+  "id": "6uid6pu3yf",
+  "name": {
+    "tr": "İlan Detayı",
+    "en": "Listing Details",
+    "ar": "تفاصيل الإعلان"
+  },
+  "description": {
+    "tr": "Örnek ilan detayı: fotoğraflar, özellikler, konum ve yerinde gösterim talebi.",
+    "en": "Sample listing page: photos, features, location and a viewing request.",
+    "ar": "صفحة إعلان نموذجية: صور ومواصفات وموقع وطلب معاينة."
+  },
+  "keyword": {
+    "tr": "ilan detayı, gösterim",
+    "en": "listing details, viewing",
+    "ar": "تفاصيل الإعلان، معاينة"
+  },
+  "path": "ilan",
+  "icon": "home",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "m1034g",
+      "ak6nzi",
+      "99qke4"
+    ],
+    "footer": []
+  },
+  "index": 6,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "İlan Detayı",
+    "en": "Listing Details",
+    "ar": "تفاصيل الإعلان"
+  },
+  "date": "2026-10-31T14:55:53.734Z",
+  "update": "2026-11-05T22:24:31.423Z"
+}

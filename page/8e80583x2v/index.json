@@ -1,0 +1,40 @@
+{
+  "id": "8e80583x2v",
+  "name": {
+    "tr": "Ofis",
+    "en": "Office",
+    "ar": "المكتب"
+  },
+  "description": {
+    "tr": "Alsancak ofisimiz ve çalışma saatleri.",
+    "en": "Our Alsancak office and opening hours.",
+    "ar": "مكتبنا في ألسانجاك وساعات العمل."
+  },
+  "keyword": {
+    "tr": "ofis, adres",
+    "en": "office, address",
+    "ar": "مكتب، عنوان"
+  },
+  "path": "ofislerimiz",
+  "icon": "apartment",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "yz9a4p",
+      "t4mp01"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ofis",
+    "en": "Office",
+    "ar": "المكتب"
+  },
+  "date": "2026-10-31T14:55:53.745Z",
+  "update": "2026-11-05T22:24:31.435Z"
+}

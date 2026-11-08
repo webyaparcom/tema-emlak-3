@@ -1,0 +1,204 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "İlanlar",
+        "en": "Listings",
+        "ar": "الإعلانات"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yvi9dlb59o",
+      "url": "",
+      "path": "ilanlar",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "s5nxlr"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Satılık ve kiralık ilanlar; tür, oda, m², fiyat ve semt filtresiyle. Her ilanda yetki belgesi no (örnek).",
+        "en": "Listings for sale and rent with type, rooms, area, price and district filters. Authorization number on every listing (sample).",
+        "ar": "إعلانات للبيع والإيجار مع تصفية حسب النوع والغرف والمساحة والسعر والحي. رقم شهادة التفويض في كل إعلان (نموذجي)."
+      },
+      "icon": "real_estate_agent"
+    },
+    {
+      "name": {
+        "tr": "Projeler",
+        "en": "Projects",
+        "ar": "المشاريع"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hs54qzyeyo",
+      "url": "",
+      "path": "projeler",
+      "index": 1,
+      "icon": "domain",
+      "desing": {
+        "header": [],
+        "body": [
+          "vlk09t",
+          "synzlq"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Devam eden ve tamamlanan örnek projeler; görseller temsilidir.",
+        "en": "Ongoing and completed sample projects; images are representative.",
+        "ar": "مشاريع نموذجية قيد الإنجاز ومنجزة؛ الصور تمثيلية."
+      }
+    },
+    {
+      "id": "n9q46gqkje",
+      "name": {
+        "tr": "Danışmanlar",
+        "en": "Advisors",
+        "ar": "المستشارون"
+      },
+      "description": {
+        "tr": "Gayrimenkul danışmanlarımız ve uzmanlık alanları.",
+        "en": "Our property advisors and their areas of expertise.",
+        "ar": "مستشارونا العقاريون ومجالات خبرتهم."
+      },
+      "path": "danismanlarimiz",
+      "icon": "groups",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "7gc7fu",
+          "t4ca01"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "7lnn7oftev",
+      "name": {
+        "tr": "Değerleme",
+        "en": "Valuation",
+        "ar": "التقييم"
+      },
+      "description": {
+        "tr": "Mülkünüz için değerleme görüşmesi talebi (demo).",
+        "en": "A valuation meeting request for your property (demo).",
+        "ar": "طلب اجتماع تقييم لعقارك (تجريبي)."
+      },
+      "path": "degerleme",
+      "icon": "calculate",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "o36r1r",
+          "sn08y2"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "8e80583x2v",
+      "name": {
+        "tr": "Ofis",
+        "en": "Office",
+        "ar": "المكتب"
+      },
+      "description": {
+        "tr": "Alsancak ofisimiz ve çalışma saatleri.",
+        "en": "Our Alsancak office and opening hours.",
+        "ar": "مكتبنا في ألسانجاك وساعات العمل."
+      },
+      "path": "ofislerimiz",
+      "icon": "apartment",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "yz9a4p",
+          "t4mp01"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "zrnamx",
+          "t4mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, WhatsApp, form ve çalışma saatleri.",
+        "en": "Address, phone, WhatsApp, form and opening hours.",
+        "ar": "العنوان والهاتف وواتساب والنموذج وساعات العمل."
+      }
+    },
+    {
+      "id": "6uid6pu3yf",
+      "name": {
+        "tr": "İlan Detayı",
+        "en": "Listing Details",
+        "ar": "تفاصيل الإعلان"
+      },
+      "description": {
+        "tr": "Örnek ilan detayı: fotoğraflar, özellikler, konum ve yerinde gösterim talebi.",
+        "en": "Sample listing page: photos, features, location and a viewing request.",
+        "ar": "صفحة إعلان نموذجية: صور ومواصفات وموقع وطلب معاينة."
+      },
+      "path": "ilan",
+      "icon": "home",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "m1034g",
+          "ak6nzi",
+          "99qke4"
+        ],
+        "footer": []
+      },
+      "index": 6
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

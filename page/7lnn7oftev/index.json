@@ -1,0 +1,40 @@
+{
+  "id": "7lnn7oftev",
+  "name": {
+    "tr": "Değerleme",
+    "en": "Valuation",
+    "ar": "التقييم"
+  },
+  "description": {
+    "tr": "Mülkünüz için değerleme görüşmesi talebi (demo).",
+    "en": "A valuation meeting request for your property (demo).",
+    "ar": "طلب اجتماع تقييم لعقارك (تجريبي)."
+  },
+  "keyword": {
+    "tr": "değerleme, ekspertiz, fiyat",
+    "en": "valuation, appraisal, price",
+    "ar": "تقييم، خبرة، سعر"
+  },
+  "path": "degerleme",
+  "icon": "calculate",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "o36r1r",
+      "sn08y2"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Değerleme",
+    "en": "Valuation",
+    "ar": "التقييم"
+  },
+  "date": "2026-10-31T14:55:53.742Z",
+  "update": "2026-11-05T22:24:31.432Z"
+}

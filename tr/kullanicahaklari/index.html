@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Kullanıcı Hakları</title>
+  <meta name="description" content="Kullanıcı hakları" />
+  <meta name="keywords" content="emlak, ilk ev, kiralık daire, satılık daire, yetki belgesi" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://emlak-3.webyapar.com/tr/kullanicahaklari/" />
+  <link rel="alternate" hreflang="tr" href="https://emlak-3.webyapar.com/tr/kullanicahaklari/" />
+  <link rel="alternate" hreflang="en" href="https://emlak-3.webyapar.com/en/kullanicahaklari/" />
+  <link rel="alternate" hreflang="ar" href="https://emlak-3.webyapar.com/ar/kullanicahaklari/" />
+  <link rel="alternate" hreflang="x-default" href="https://emlak-3.webyapar.com/tr/kullanicahaklari/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kullanıcı Hakları" />
+  <meta property="og:description" content="Kullanıcı hakları" />
+  <meta property="og:url" content="https://emlak-3.webyapar.com/tr/kullanicahaklari/" />
+  <meta property="og:image" content="https://emlak-3.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Kullanıcı Hakları" />
+  <meta property="og:site_name" content="Yuva Nokta" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kullanıcı Hakları" />
+  <meta name="twitter:description" content="Kullanıcı hakları" />
+  <meta name="twitter:image" content="https://emlak-3.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#BE2A4F" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/rubik.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/css.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=itk5p" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=itk5p" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=itk5p" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=itk5p" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=itk5p" />
+  <link rel="shortcut icon" href="/img/icon.png?v=itk5p" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://emlak-3.webyapar.com/#website",
+      "url": "https://emlak-3.webyapar.com/",
+      "name": "Yuva Nokta",
+      "description": "Yuva Nokta: ilk ev alıcısı ve kiracı dostu satılık-kiralık ilanlar; her ilanda yetki belgesi numarası, çevrimiçi gösterim randevusu. (Demo site)",
+      "inLanguage": "tr",
+      "publisher": {
+        "@id": "https://emlak-3.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://emlak-3.webyapar.com/#organization",
+      "name": "Yuva Nokta",
+      "url": "https://emlak-3.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://emlak-3.webyapar.com/img/logo.png"
+      },
+      "image": "https://emlak-3.webyapar.com/img/logo.png",
+      "description": "Yuva Nokta: ilk ev alıcısı ve kiracı dostu satılık-kiralık ilanlar; her ilanda yetki belgesi numarası, çevrimiçi gösterim randevusu. (Demo site)",
+      "telephone": "+90 232 000 00 31",
+      "email": "merhaba@yuvanokta.example",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+90 232 000 00 31",
+        "email": "merhaba@yuvanokta.example"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://emlak-3.webyapar.com/tr/kullanicahaklari/#webpage",
+      "url": "https://emlak-3.webyapar.com/tr/kullanicahaklari/",
+      "name": "Kullanıcı Hakları",
+      "description": "Kullanıcı hakları",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://emlak-3.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://emlak-3.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://emlak-3.webyapar.com/img/logo.png"
+      },
+      "dateModified": "2026-11-05T22:24:31.449Z",
+      "breadcrumb": {
+        "@id": "https://emlak-3.webyapar.com/tr/kullanicahaklari/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://emlak-3.webyapar.com/tr/kullanicahaklari/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Yuva Nokta",
+          "item": "https://emlak-3.webyapar.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Kullanıcı Hakları",
+          "item": "https://emlak-3.webyapar.com/tr/kullanicahaklari/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=itk5p">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">İçeriğe atla</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-cpwcjy" role="region" aria-label="Demo site uyarısı" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar" target="_blank" rel="noopener noreferrer">
+    <span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-cpwcjy");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<header class="h0001-m10 h0001-m10--sade" role="banner">
+  <div class="h0001-m10-scrim" aria-hidden="true"></div>
+  <div class="h0001-m10-ic">
+    <a class="h0001-m10-logo" href="/tr/" aria-label="Anasayfa - Yuva Nokta">
+      <img class="h0001-m10-logo-koyu" src="/img/logo.png" alt="Yuva Nokta" loading="eager" decoding="async" />
+      
+    </a>
+    <nav class="h0001-m10-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m10-oge" href="/tr/">Anasayfa</a></li><li><a class="h0001-m10-oge" href="/tr/ilanlar/">İlanlar</a></li><li><a class="h0001-m10-oge" href="/tr/projeler/">Projeler</a></li><li><a class="h0001-m10-oge" href="/tr/danismanlarimiz/">Danışmanlar</a></li><li><a class="h0001-m10-oge" href="/tr/degerleme/">Değerleme</a></li><li><a class="h0001-m10-oge" href="/tr/ofislerimiz/">Ofis</a></li><li><a class="h0001-m10-oge" href="/tr/iletisim/">İletişim</a></li><li><a class="h0001-m10-oge" href="/tr/ilan/">İlan Detayı</a></li></ul>
+    </nav>
+    <div class="h0001-m10-sag">
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kullanicahaklari/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kullanicahaklari/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kullanicahaklari/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+      
+      <button class="h0001-m10-hamburger" type="button" aria-expanded="false" aria-controls="m10-pzvsqe-panel" aria-label="Menüyü Aç/Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="h0001-m10-panel" id="m10-pzvsqe-panel" hidden>
+    <div class="h0001-m10-panel-ust">
+      <a class="h0001-m10-logo h0001-m10-logo--panel" href="/tr/" aria-label="Anasayfa - Yuva Nokta">
+        <img src="/img/logo.png" alt="Yuva Nokta" loading="lazy" decoding="async" />
+      </a>
+      <button class="h0001-m10-kapat" type="button" aria-label="Menüyü Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <nav class="h0001-m10-panel-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m10-oge" href="/tr/">Anasayfa</a></li><li><a class="h0001-m10-oge" href="/tr/ilanlar/">İlanlar</a></li><li><a class="h0001-m10-oge" href="/tr/projeler/">Projeler</a></li><li><a class="h0001-m10-oge" href="/tr/danismanlarimiz/">Danışmanlar</a></li><li><a class="h0001-m10-oge" href="/tr/degerleme/">Değerleme</a></li><li><a class="h0001-m10-oge" href="/tr/ofislerimiz/">Ofis</a></li><li><a class="h0001-m10-oge" href="/tr/iletisim/">İletişim</a></li><li><a class="h0001-m10-oge" href="/tr/ilan/">İlan Detayı</a></li></ul>
+    </nav>
+    <div class="h0001-m10-panel-alt">
+      
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kullanicahaklari/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kullanicahaklari/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kullanicahaklari/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".h0001-m10");
+    if (!kok) { return; }
+    var dugme = kok.querySelector(".h0001-m10-hamburger");
+    var panel = kok.querySelector(".h0001-m10-panel");
+    var kapat = kok.querySelector(".h0001-m10-kapat");
+
+    
+    function heroMu(el) {
+      if (!el || el.nodeType !== 1) { return false; }
+      if (el.hasAttribute("data-mx-hero")) { return true; }
+      var c = String(el.className || "");
+      return /(^|\s)[bhf]\d{4}-(hero|h\d|kb)(\s|$|-)/.test(c) || /hero|slider|swiper|kenburns/i.test(c);
+    }
+    
+    var heroVar = true, deneme = 0, bekliyor = false, sabit = false;
+    function heroKarar() {
+      var icerik = document.getElementById("content");
+      var ilk = icerik ? icerik.firstElementChild : null;
+      if (!ilk && deneme < 40 && document.readyState === "loading") { deneme++; setTimeout(heroKarar, 25); return; }
+      heroVar = heroMu(kok.nextElementSibling) || heroMu(ilk);
+      if (!heroVar) {
+        kok.classList.add("h0001-m10-akista");
+        kok.classList.add("h0001-m10-kati");
+      } else {
+        kok.classList.remove("h0001-m10-akista");
+        if (!sabit) { kok.classList.remove("h0001-m10-kati"); }
+      }
+      uygula();
+    }
+
+    
+    function uygula() {
+      bekliyor = false;
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (!sabit && y > 40) {
+        kok.classList.add("h0001-m10-kati");
+        kok.classList.add("h0001-m10-sabit");
+        sabit = true;
+      } else if (sabit && y <= 4) {
+        kok.classList.remove("h0001-m10-sabit");
+        if (heroVar) { kok.classList.remove("h0001-m10-kati"); }
+        sabit = false;
+      }
+    }
+    window.addEventListener("scroll", function () { if (!bekliyor) { bekliyor = true; window.requestAnimationFrame(uygula); } }, { passive: true });
+    heroKarar();
+    window.addEventListener("load", heroKarar);
+
+    
+    function ac() {
+      if (!panel) { return; }
+      panel.hidden = false;
+      if (dugme) { dugme.setAttribute("aria-expanded", "true"); }
+      document.body.style.overflow = "hidden";
+      if (kapat) { kapat.focus(); }
+    }
+    function kapa() {
+      if (!panel || panel.hidden) { return; }
+      panel.hidden = true;
+      if (dugme) { dugme.setAttribute("aria-expanded", "false"); dugme.focus(); }
+      document.body.style.overflow = "";
+    }
+    if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
+    if (kapat) { kapat.addEventListener("click", kapa); }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
+  })();
+</script>
+</div>
+  <div id="content"><div class="b0001-title f36">
+  <h1>Kullanıcı Hakları</h1>
+</div>
+<div class="b0001">
+  <div class="b0001-menu"><a  href="/tr/ilanlar/" >İlanlar</a><a  href="/tr/projeler/" >Projeler</a><a  href="/tr/danismanlarimiz/" >Danışmanlar</a><a  href="/tr/degerleme/" >Değerleme</a><a  href="/tr/ofislerimiz/" >Ofis</a><a  href="/tr/iletisim/" >İletişim</a><a  href="/tr/ilan/" >İlan Detayı</a></div>
+  <div class="b0001-desc">
+    
+
+    <div class="b0001-body"><p><h2>Kullanıcı Hakları</h2></p>
+<p><p>Kullanıcılar, kişisel verilerinin işlenip işlenmediğini öğrenme, düzeltilmesini veya silinmesini isteme ve işlemeye itiraz etme haklarına sahiptir.</p></p>
+<p><p>Bu demo sitede veri kaydedilmediği için bu hakların kullanımı gerektirecek bir işlem yoktur; gerçek sitelerde başvuru kanalı bu sayfada belirtilir.</p></p>
+<p><p><em>Bu metin demo amaçlı örnektir; hukuki danışmanlık yerine geçmez.</em></p></p></div>
+  </div>
+</div>
+
+
+<section class="b0002-cta" data-stil="gradient">
+  <div class="b0002-cta-container">
+    <div class="b0002-cta-content">
+      <h2 class="b0002-cta-title">Size uygun ilanı birlikte seçelim</h2>
+      <p class="b0002-cta-desc">Bütçenizi ve beklentilerinizi paylaşın, danışmanımız portföyümüzden size uygun seçenekleri sunsun.</p>
+    </div>
+    <div class="b0002-cta-actions">
+      <a href="/tr/ilan/" class="b0002-cta-btn b0002-cta-btn-primary">
+        <span>Gösterim randevusu</span>
+        <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+      </a>
+      <a href="/tr/ilanlar/" class="b0002-cta-btn b0002-cta-btn-secondary">
+        <span>İlanları gör</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+</div>
+  <div id="footer"><footer class="f0000-f9" role="contentinfo">
+  <div class="f0000-f9__main f0000-f9__main--c3">
+    <div class="f0000-f9__col f0000-f9__brand">
+      <a href="/tr/" class="f0000-f9__logo f0000-f9__logo--plate" aria-label="Anasayfa - Yuva Nokta">
+        <img src="/img/logo.png" alt="Yuva Nokta Logo" loading="lazy" />
+      </a>
+      <p class="f0000-f9__about">İlk ev alıcısı ve kiracı dostu ilanlar; her ilanda yetki belgesi no (örnek). Kurgusal demo marka.</p>
+    </div>
+    <nav class="f0000-f9__col f0000-f9__pages" aria-label="Navigasyon">
+      <h3 class="f0000-f9__title">Sayfalar</h3>
+      <ul class="f0000-f9__list">
+        <li><a class="f0000-f9__link" href="/tr/">Anasayfa</a></li><li><a class="f0000-f9__link" href="/tr/ilanlar/">İlanlar</a></li><li><a class="f0000-f9__link" href="/tr/projeler/">Projeler</a></li><li><a class="f0000-f9__link" href="/tr/danismanlarimiz/">Danışmanlar</a></li><li><a class="f0000-f9__link" href="/tr/degerleme/">Değerleme</a></li><li><a class="f0000-f9__link" href="/tr/ofislerimiz/">Ofis</a></li><li><a class="f0000-f9__link" href="/tr/iletisim/">İletişim</a></li><li><a class="f0000-f9__link" href="/tr/ilan/">İlan Detayı</a></li>
+      </ul>
+    </nav>
+    <div class="f0000-f9__col f0000-f9__contact"><h3 class="f0000-f9__title">İletişim</h3><ul class="f0000-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Kıbrıs Şehitleri Cd. No: 44, Alsancak, İzmir (kurgusal adres)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f9__link" href="tel:+902320000031" dir="ltr">+90 232 000 00 31</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f9__link" href="mailto:merhaba@yuvanokta.example">merhaba@yuvanokta.example</a></li></ul></div>
+    
+  </div>
+  <div class="f0000-f9__bottom">
+    <p class="f0000-f9__rights">&copy; 2026 Yuva Nokta. Tüm hakları saklıdır.</p>
+    <ul class="f0000-f9__legal"><li><a class="f0000-f9__link" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="f0000-f9__link" href="/tr/kisiselveriler/">Kişisel veriler</a></li></ul>
+    <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/kullanicahaklari/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/kullanicahaklari/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/kullanicahaklari/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+  </div>
+</footer>
+
+<div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
+  <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#emlak-3" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #FFFAFB);color:var(--mx-site-text, #111111);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #111111)">Kurumsal ve Yasal</strong><a href="/tr/misyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Misyon</a><a href="/tr/vizyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Vizyon</a><a href="/tr/kalitepolitikamiz/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Kalite Politikamız</a><a href="/tr/gizlilikpolitikasi/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Gizlilik Politikası</a><a href="/tr/yasaluyari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Yasal Uyarı</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=itk5p"></script>
+  <script defer src="/src/mx-store.js?v=itk5p"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=itk5p"></script>
+  <script defer src="/src/cookie.js?v=itk5p"></script>
+
+</body>
+
+</html>

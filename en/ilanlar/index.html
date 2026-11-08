@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Listings</title>
+  <meta name="description" content="Listings for sale and rent with type, rooms, area, price and district filters. Authorization number on every listing (sample)." />
+  <meta name="keywords" content="listings, for sale, for rent, apartment" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://emlak-3.webyapar.com/en/ilanlar/" />
+  <link rel="alternate" hreflang="tr" href="https://emlak-3.webyapar.com/tr/ilanlar/" />
+  <link rel="alternate" hreflang="en" href="https://emlak-3.webyapar.com/en/ilanlar/" />
+  <link rel="alternate" hreflang="ar" href="https://emlak-3.webyapar.com/ar/ilanlar/" />
+  <link rel="alternate" hreflang="x-default" href="https://emlak-3.webyapar.com/tr/ilanlar/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Listings" />
+  <meta property="og:description" content="Listings for sale and rent with type, rooms, area, price and district filters. Authorization number on every listing (sample)." />
+  <meta property="og:url" content="https://emlak-3.webyapar.com/en/ilanlar/" />
+  <meta property="og:image" content="https://emlak-3.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Listings" />
+  <meta property="og:site_name" content="Yuva Nokta" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Listings" />
+  <meta name="twitter:description" content="Listings for sale and rent with type, rooms, area, price and district filters. Authorization number on every listing (sample)." />
+  <meta name="twitter:image" content="https://emlak-3.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#BE2A4F" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/open-sans/open-sans-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/open-sans.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/rubik.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/css.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=isjjj" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=isjjj" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=isjjj" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=isjjj" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=isjjj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=isjjj" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://emlak-3.webyapar.com/#website",
+      "url": "https://emlak-3.webyapar.com/",
+      "name": "Yuva Nokta",
+      "description": "Yuva Nokta: first-time-buyer and tenant friendly listings for sale and rent; authorization number on every listing, online viewing appointments. (Demo site)",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://emlak-3.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://emlak-3.webyapar.com/#organization",
+      "name": "Yuva Nokta",
+      "url": "https://emlak-3.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://emlak-3.webyapar.com/img/logo.png"
+      },
+      "image": "https://emlak-3.webyapar.com/img/logo.png",
+      "description": "Yuva Nokta: first-time-buyer and tenant friendly listings for sale and rent; authorization number on every listing, online viewing appointments. (Demo site)",
+      "telephone": "+90 232 000 00 31",
+      "email": "merhaba@yuvanokta.example",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+90 232 000 00 31",
+        "email": "merhaba@yuvanokta.example"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://emlak-3.webyapar.com/en/ilanlar/#webpage",
+      "url": "https://emlak-3.webyapar.com/en/ilanlar/",
+      "name": "Listings",
+      "description": "Listings for sale and rent with type, rooms, area, price and district filters. Authorization number on every listing (sample).",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://emlak-3.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://emlak-3.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://emlak-3.webyapar.com/img/logo.png"
+      },
+      "dateModified": "2026-11-05T22:24:31.420Z",
+      "breadcrumb": {
+        "@id": "https://emlak-3.webyapar.com/en/ilanlar/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://emlak-3.webyapar.com/en/ilanlar/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Yuva Nokta",
+          "item": "https://emlak-3.webyapar.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Listings",
+          "item": "https://emlak-3.webyapar.com/en/ilanlar/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=isjjj">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">Skip to content</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-cpwcjy" role="region" aria-label="Demo site notice" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">This is a demo site — the content is fictional and no payment is taken</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar" target="_blank" rel="noopener noreferrer">
+    <span>Get this theme</span><span class="mx-visually-hidden"> (opens in a new tab)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-cpwcjy");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<header class="h0001-m10 h0001-m10--sade" role="banner">
+  <div class="h0001-m10-scrim" aria-hidden="true"></div>
+  <div class="h0001-m10-ic">
+    <a class="h0001-m10-logo" href="/en/" aria-label="Home - Yuva Nokta">
+      <img class="h0001-m10-logo-koyu" src="/img/logo.png" alt="Yuva Nokta" loading="eager" decoding="async" />
+      
+    </a>
+    <nav class="h0001-m10-nav" aria-label="Navigation">
+      <ul><li><a class="h0001-m10-oge" href="/en/">Home</a></li><li><a class="h0001-m10-oge" href="/en/ilanlar/" aria-current="page">Listings</a></li><li><a class="h0001-m10-oge" href="/en/projeler/">Projects</a></li><li><a class="h0001-m10-oge" href="/en/danismanlarimiz/">Advisors</a></li><li><a class="h0001-m10-oge" href="/en/degerleme/">Valuation</a></li><li><a class="h0001-m10-oge" href="/en/ofislerimiz/">Office</a></li><li><a class="h0001-m10-oge" href="/en/iletisim/">Contact</a></li><li><a class="h0001-m10-oge" href="/en/ilan/">Listing Details</a></li></ul>
+    </nav>
+    <div class="h0001-m10-sag">
+      <nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/ilanlar/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/ilanlar/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/ilanlar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+      
+      <button class="h0001-m10-hamburger" type="button" aria-expanded="false" aria-controls="m10-pzvsqe-panel" aria-label="Toggle Menu">
+        <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="h0001-m10-panel" id="m10-pzvsqe-panel" hidden>
+    <div class="h0001-m10-panel-ust">
+      <a class="h0001-m10-logo h0001-m10-logo--panel" href="/en/" aria-label="Home - Yuva Nokta">
+        <img src="/img/logo.png" alt="Yuva Nokta" loading="lazy" decoding="async" />
+      </a>
+      <button class="h0001-m10-kapat" type="button" aria-label="Close Menu">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <nav class="h0001-m10-panel-nav" aria-label="Navigation">
+      <ul><li><a class="h0001-m10-oge" href="/en/">Home</a></li><li><a class="h0001-m10-oge" href="/en/ilanlar/" aria-current="page">Listings</a></li><li><a class="h0001-m10-oge" href="/en/projeler/">Projects</a></li><li><a class="h0001-m10-oge" href="/en/danismanlarimiz/">Advisors</a></li><li><a class="h0001-m10-oge" href="/en/degerleme/">Valuation</a></li><li><a class="h0001-m10-oge" href="/en/ofislerimiz/">Office</a></li><li><a class="h0001-m10-oge" href="/en/iletisim/">Contact</a></li><li><a class="h0001-m10-oge" href="/en/ilan/">Listing Details</a></li></ul>
+    </nav>
+    <div class="h0001-m10-panel-alt">
+      
+      <nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/ilanlar/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/ilanlar/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/ilanlar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".h0001-m10");
+    if (!kok) { return; }
+    var dugme = kok.querySelector(".h0001-m10-hamburger");
+    var panel = kok.querySelector(".h0001-m10-panel");
+    var kapat = kok.querySelector(".h0001-m10-kapat");
+
+    
+    function heroMu(el) {
+      if (!el || el.nodeType !== 1) { return false; }
+      if (el.hasAttribute("data-mx-hero")) { return true; }
+      var c = String(el.className || "");
+      return /(^|\s)[bhf]\d{4}-(hero|h\d|kb)(\s|$|-)/.test(c) || /hero|slider|swiper|kenburns/i.test(c);
+    }
+    
+    var heroVar = true, deneme = 0, bekliyor = false, sabit = false;
+    function heroKarar() {
+      var icerik = document.getElementById("content");
+      var ilk = icerik ? icerik.firstElementChild : null;
+      if (!ilk && deneme < 40 && document.readyState === "loading") { deneme++; setTimeout(heroKarar, 25); return; }
+      heroVar = heroMu(kok.nextElementSibling) || heroMu(ilk);
+      if (!heroVar) {
+        kok.classList.add("h0001-m10-akista");
+        kok.classList.add("h0001-m10-kati");
+      } else {
+        kok.classList.remove("h0001-m10-akista");
+        if (!sabit) { kok.classList.remove("h0001-m10-kati"); }
+      }
+      uygula();
+    }
+
+    
+    function uygula() {
+      bekliyor = false;
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (!sabit && y > 40) {
+        kok.classList.add("h0001-m10-kati");
+        kok.classList.add("h0001-m10-sabit");
+        sabit = true;
+      } else if (sabit && y <= 4) {
+        kok.classList.remove("h0001-m10-sabit");
+        if (heroVar) { kok.classList.remove("h0001-m10-kati"); }
+        sabit = false;
+      }
+    }
+    window.addEventListener("scroll", function () { if (!bekliyor) { bekliyor = true; window.requestAnimationFrame(uygula); } }, { passive: true });
+    heroKarar();
+    window.addEventListener("load", heroKarar);
+
+    
+    function ac() {
+      if (!panel) { return; }
+      panel.hidden = false;
+      if (dugme) { dugme.setAttribute("aria-expanded", "true"); }
+      document.body.style.overflow = "hidden";
+      if (kapat) { kapat.focus(); }
+    }
+    function kapa() {
+      if (!panel || panel.hidden) { return; }
+      panel.hidden = true;
+      if (dugme) { dugme.setAttribute("aria-expanded", "false"); dugme.focus(); }
+      document.body.style.overflow = "";
+    }
+    if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
+    if (kapat) { kapat.addEventListener("click", kapa); }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
+  })();
+</script>
+</div>
+  <div id="content"><h1 style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">Listings</h1><section class="b0000-ilan" id="b0000-ilan-s5nxlr" aria-labelledby="b0000-ilan-s5nxlr-h">
+  <div class="b0000-ilan-wrap">
+    <header class="b0000-ilan-head">
+      <h2 class="b0000-ilan-h" id="b0000-ilan-s5nxlr-h">Listings</h2>
+      <p class="b0000-ilan-sub">Filter, sort and compare properties for sale and rent. Authorization number on every listing (sample).</p>
+    </header>
+
+    <div class="b0000-ilan-bar">
+      <div class="b0000-ilan-tabs" role="group" aria-label="Deal type">
+        <button type="button" class="b0000-ilan-tab is-on" data-ilan-deal="" aria-pressed="true">All<span class="b0000-ilan-tabn" data-ilan-count="deal:"></span></button>
+        <button type="button" class="b0000-ilan-tab" data-ilan-deal="sale" aria-pressed="false">For sale<span class="b0000-ilan-tabn" data-ilan-count="deal:sale"></span></button>
+        <button type="button" class="b0000-ilan-tab" data-ilan-deal="rent" aria-pressed="false">For rent<span class="b0000-ilan-tabn" data-ilan-count="deal:rent"></span></button>
+      </div>
+      <div class="b0000-ilan-tools">
+        <label class="b0000-ilan-search">
+          <span class="b0000-ilan-vh">Search listings</span>
+          <span class="material-symbols-outlined" aria-hidden="true">search</span>
+          <input type="search" data-ilan-q placeholder="District or listing title…" autocomplete="off" />
+        </label>
+        <label class="b0000-ilan-sort">
+          <span class="b0000-ilan-sortl">Sort by</span>
+          <select class="b0000-ilan-select" data-ilan-sort><option value="date">Newest</option><option value="price">Price: low to high</option><option value="priceDesc">Price: high to low</option><option value="m2">Area: large to small</option><option value="m2Asc">Area: small to large</option></select>
+        </label>
+        <button type="button" class="b0000-ilan-toggle" data-ilan-toggle aria-expanded="false" aria-controls="b0000-ilan-s5nxlr-panel">
+          <span class="material-symbols-outlined" aria-hidden="true">tune</span>
+          <span>Filters</span>
+          <span class="b0000-ilan-badge" data-ilan-active hidden></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="b0000-ilan-layout">
+      <aside class="b0000-ilan-panel" id="b0000-ilan-s5nxlr-panel" aria-label="Filters">
+        <div class="b0000-ilan-panelhead">
+          <h3 class="b0000-ilan-ph3">Filters</h3>
+          <button type="button" class="b0000-ilan-reset" data-ilan-reset>Clear filters</button>
+        </div>
+        <div class="b0000-ilan-sec" role="group" aria-labelledby="b0000-ilan-s5nxlr-g-type"><div class="b0000-ilan-leg" id="b0000-ilan-s5nxlr-g-type">Property type</div><div class="b0000-ilan-opts"><label class="b0000-ilan-opt"><input type="checkbox" data-ilan-facet="type" value="daire" /><span class="b0000-ilan-opt-t">daire</span><span class="b0000-ilan-opt-n" data-ilan-count="type:daire"></span></label><label class="b0000-ilan-opt"><input type="checkbox" data-ilan-facet="type" value="villa" /><span class="b0000-ilan-opt-t">villa</span><span class="b0000-ilan-opt-n" data-ilan-count="type:villa"></span></label><label class="b0000-ilan-opt"><input type="checkbox" data-ilan-facet="type" value="arsa" /><span class="b0000-ilan-opt-t">arsa</span><span class="b0000-ilan-opt-n" data-ilan-count="type:arsa"></span></label><label class="b0000-ilan-opt"><input type="checkbox" data-ilan-facet="type" value="isyeri" /><span class="b0000-ilan-opt-t">isyeri</span><span class="b0000-ilan-opt-n" data-ilan-count="type:isyeri"></span></label><label class="b0000-ilan-opt"><input type="checkbox" data-ilan-facet="type" value="rezidans" /><span class="b0000-ilan-opt-t">rezidans</span><span class="b0000-ilan-opt-n" data-ilan-count="type:rezidans"></span></label></div></div>
+        <div class="b0000-ilan-sec" role="group" aria-labelledby="b0000-ilan-s5nxlr-g-rooms"><div class="b0000-ilan-leg" id="b0000-ilan-s5nxlr-g-rooms">Rooms</div><div class="b0000-ilan-chips"><label class="b0000-ilan-opt b0000-ilan-opt-chip"><input type="checkbox" data-ilan-facet="rooms" value="1+1" /><span class="b0000-ilan-opt-t"><bdi dir="ltr">1+1</bdi></span></label><label class="b0000-ilan-opt b0000-ilan-opt-chip"><input type="checkbox" data-ilan-facet="rooms" value="2+1" /><span class="b0000-ilan-opt-t"><bdi dir="ltr">2+1</bdi></span></label><label class="b0000-ilan-opt b0000-ilan-opt-chip"><input type="checkbox" data-ilan-facet="rooms" value="3+1" /><span class="b0000-ilan-opt-t"><bdi dir="ltr">3+1</bdi></span></label><label class="b0000-ilan-opt b0000-ilan-opt-chip"><input type="checkbox" data-ilan-facet="rooms" value="4+1" /><span class="b0000-ilan-opt-t"><bdi dir="ltr">4+1</bdi></span></label><label class="b0000-ilan-opt b0000-ilan-opt-chip"><input type="checkbox" data-ilan-facet="rooms" value="5+2" /><span class="b0000-ilan-opt-t"><bdi dir="ltr">5+2</bdi></span></label></div></div>
+        <div class="b0000-ilan-sec" role="group" aria-labelledby="b0000-ilan-s5nxlr-g-m2"><div class="b0000-ilan-leg" id="b0000-ilan-s5nxlr-g-m2">Area (m²)</div><div class="b0000-ilan-range"><label><span class="b0000-ilan-vh">Area (m²) – Min</span><input type="number" inputmode="numeric" min="0" dir="ltr" data-ilan-range="m2" data-ilan-end="0" placeholder="Min" /></label><span class="b0000-ilan-dash" aria-hidden="true">–</span><label><span class="b0000-ilan-vh">Area (m²) – Max</span><input type="number" inputmode="numeric" min="0" dir="ltr" data-ilan-range="m2" data-ilan-end="1" placeholder="Max" /></label></div></div>
+        <div class="b0000-ilan-sec" role="group" aria-labelledby="b0000-ilan-s5nxlr-g-price"><div class="b0000-ilan-leg" id="b0000-ilan-s5nxlr-g-price">Price</div><div class="b0000-ilan-range"><label><span class="b0000-ilan-vh">Price – Min</span><input type="number" inputmode="numeric" min="0" dir="ltr" data-ilan-range="price" data-ilan-end="0" placeholder="Min" /></label><span class="b0000-ilan-dash" aria-hidden="true">–</span><label><span class="b0000-ilan-vh">Price – Max</span><input type="number" inputmode="numeric" min="0" dir="ltr" data-ilan-range="price" data-ilan-end="1" placeholder="Max" /></label></div></div>
+        <div class="b0000-ilan-sec" role="group" aria-labelledby="b0000-ilan-s5nxlr-g-district"><div class="b0000-ilan-leg" id="b0000-ilan-s5nxlr-g-district">District</div><select class="b0000-ilan-select" data-ilan-facet="district" aria-labelledby="b0000-ilan-s5nxlr-g-district"><option value="">All districts</option><option value="bodrum">Bodrum</option><option value="cankaya">Cankaya</option><option value="cesme">Cesme</option><option value="kadikoy">Kadikoy</option><option value="karsiyaka">Karsiyaka</option><option value="nilufer">Nilufer</option><option value="sisli">Sisli</option><option value="urla">Urla</option></select></div>
+      </aside>
+
+      <div class="b0000-ilan-main">
+        <p class="b0000-ilan-status" role="status" aria-live="polite" data-ilan-status></p>
+        <p class="b0000-ilan-demo"><span class="material-symbols-outlined" aria-hidden="true">info</span><span>Listings on this page are fictional; authorization numbers are samples (DEMO).</span></p>
+        <div class="b0000-ilan-list" data-ilan-list><article class="b0000-ilan-card" data-id="ilan-001" data-deal="sale"><div class="b0000-ilan-media"><img src="/img/emlak-ilan-salon.webp" alt="3+1 apartment with sea view" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-sale">For sale</span><span class="b0000-ilan-flag">New</span></span><span class="b0000-ilan-count"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>3 photos</span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">6.850.000 ₺</bdi></p><h3 class="b0000-ilan-title"><a class="b0000-ilan-link" href="/en/ilan/">3+1 apartment with sea view</a></h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Kadikoy, Istanbul</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>daire</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">3+1</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">142 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-34-0001</bdi></span></span><span class="b0000-ilan-date">Listed on: October 24, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-002" data-deal="rent"><div class="b0000-ilan-media"><img src="/img/emlak-ilan-yatak.webp" alt="2+1 garden-floor apartment for rent" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-rent">For rent</span></span><span class="b0000-ilan-count"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>2 photos</span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">38.000 ₺</bdi> <span class="b0000-ilan-per">/ month</span></p><h3 class="b0000-ilan-title">2+1 garden-floor apartment for rent</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Cankaya, Ankara</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>daire</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">2+1</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">95 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-06-0002</bdi></span></span><span class="b0000-ilan-date">Listed on: October 22, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-003" data-deal="sale"><div class="b0000-ilan-media"><img src="/img/emlak-ilan-bahce.webp" alt="Detached villa with pool" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-sale">For sale</span></span><span class="b0000-ilan-count"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>2 photos</span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">18.900.000 ₺</bdi></p><h3 class="b0000-ilan-title">Detached villa with pool</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Bodrum, Mugla</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>villa</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">5+2</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">320 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-48-0003</bdi></span></span><span class="b0000-ilan-date">Listed on: October 18, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-004" data-deal="rent"><div class="b0000-ilan-media"><img src="/img/emlak-ilan-mutfak.webp" alt="Furnished 1+1 apartment for rent" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-rent">For rent</span></span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">22.500 ₺</bdi> <span class="b0000-ilan-per">/ month</span></p><h3 class="b0000-ilan-title">Furnished 1+1 apartment for rent</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Karsiyaka, Izmir</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>daire</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">1+1</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">55 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-35-0004</bdi></span></span><span class="b0000-ilan-date">Listed on: October 15, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-005" data-deal="sale"><div class="b0000-ilan-media"><img src="/img/emlak-proje-1.webp" alt="Zoned plot for sale" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-sale">For sale</span></span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">3.200.000 ₺</bdi></p><h3 class="b0000-ilan-title">Zoned plot for sale</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Urla, Izmir</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>arsa</li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">600 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-35-0005</bdi></span></span><span class="b0000-ilan-date">Listed on: October 11, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-006" data-deal="rent"><div class="b0000-ilan-media"><img src="/img/emlak-ilan-ofis.webp" alt="Office floor for rent in a central business tower" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-rent">For rent</span></span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">65.000 ₺</bdi> <span class="b0000-ilan-per">/ month</span></p><h3 class="b0000-ilan-title">Office floor for rent in a central business tower</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Sisli, Istanbul</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>isyeri</li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">120 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-34-0006</bdi></span></span><span class="b0000-ilan-date">Listed on: October 8, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-007" data-deal="sale" hidden><div class="b0000-ilan-media"><img src="/img/emlak-ilan-cephe.webp" alt="2+1 apartment in a gated complex" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-sale">For sale</span></span><span class="b0000-ilan-count"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>2 photos</span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">4.150.000 ₺</bdi></p><h3 class="b0000-ilan-title">2+1 apartment in a gated complex</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Nilufer, Bursa</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>daire</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">2+1</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">100 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-16-0007</bdi></span></span><span class="b0000-ilan-date">Listed on: October 5, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-008" data-deal="sale" hidden><div class="b0000-ilan-media"><img src="/img/emlak-ilan-banyo.webp" alt="1+1 residence in a central location" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-sale">For sale</span></span><span class="b0000-ilan-count"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>2 photos</span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">3.250.000 ₺</bdi></p><h3 class="b0000-ilan-title">1+1 residence in a central location</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Cankaya, Ankara</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>rezidans</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">1+1</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">62 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-06-0008</bdi></span></span><span class="b0000-ilan-date">Listed on: October 2, 2026</span></p></div></article><article class="b0000-ilan-card" data-id="ilan-009" data-deal="sale" hidden><div class="b0000-ilan-media"><img src="/img/emlak-ilan-balkon.webp" alt="4+1 duplex apartment with terrace" loading="lazy" decoding="async" /><span class="b0000-ilan-badges"><span class="b0000-ilan-deal b0000-ilan-deal-sale">For sale</span></span><span class="b0000-ilan-count"><span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>2 photos</span></div><div class="b0000-ilan-body"><p class="b0000-ilan-price"><bdi dir="ltr">9.400.000 ₺</bdi></p><h3 class="b0000-ilan-title">4+1 duplex apartment with terrace</h3><p class="b0000-ilan-loc"><span class="material-symbols-outlined" aria-hidden="true">location_on</span>Cesme, Izmir</p><ul class="b0000-ilan-meta"><li><span class="material-symbols-outlined" aria-hidden="true">home</span>daire</li><li><span class="material-symbols-outlined" aria-hidden="true">bed</span><bdi dir="ltr">4+1</bdi><span class="b0000-ilan-vh"> Rooms</span></li><li><span class="material-symbols-outlined" aria-hidden="true">square_foot</span><bdi dir="ltr">210 m²</bdi></li></ul><p class="b0000-ilan-foot"><span class="b0000-ilan-permit"><span class="material-symbols-outlined" aria-hidden="true">verified_user</span><span>Authorization certificate no.: <bdi dir="ltr" class="b0000-ilan-permitno">DEMO-35-0009</bdi></span></span><span class="b0000-ilan-date">Listed on: September 28, 2026</span></p></div></article></div>
+        <div class="b0000-ilan-empty" data-ilan-empty hidden>
+          <span class="material-symbols-outlined" aria-hidden="true">search_off</span>
+          <h3 class="b0000-ilan-eh">No results found</h3>
+          <p>Try loosening or clearing your filters.</p>
+          <button type="button" class="b0000-ilan-btn" data-ilan-reset>Clear filters</button>
+        </div>
+        <nav class="b0000-ilan-pages" aria-label="Pagination" data-ilan-pages hidden></nav>
+      </div>
+    </div>
+    <script type="application/json" id="b0000-ilan-s5nxlr-veri">{"cfg":{"lang":"en","pageSize":6,"sort":"date","url":true,"resultCount":{"tr":{"one":"{n} ilan bulundu","other":"{n} ilan bulundu"},"en":{"one":"{n} listing found","other":"{n} listings found"},"ar":{"zero":"لم يتم العثور على إعلانات","one":"تم العثور على إعلان واحد","two":"تم العثور على إعلانين","few":"تم العثور على {n} إعلانات","many":"تم العثور على {n} إعلانًا","other":"تم العثور على {n} إعلان"}},"prevPage":"Previous page","nextPage":"Next page","pageN":"Page {n}"},"items":[{"id":"ilan-001","deal":"sale","type":"daire","rooms":"3+1","m2":142,"price":6850000,"dk":"kadikoy","date":"2026-10-24","title":{"tr":"Deniz manzaralı 3+1 daire","en":"3+1 apartment with sea view","ar":"شقة 3+1 بإطلالة بحرية"},"district":{"tr":"Kadıköy","en":"Kadikoy","ar":"قاضي كوي"},"city":{"tr":"İstanbul","en":"Istanbul","ar":"إسطنبول"},"permit":"DEMO-34-0001"},{"id":"ilan-002","deal":"rent","type":"daire","rooms":"2+1","m2":95,"price":38000,"dk":"cankaya","date":"2026-10-22","title":{"tr":"Bahçe katı 2+1 kiralık daire","en":"2+1 garden-floor apartment for rent","ar":"شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"},"district":{"tr":"Çankaya","en":"Cankaya","ar":"تشانكايا"},"city":{"tr":"Ankara","en":"Ankara","ar":"أنقرة"},"permit":"DEMO-06-0002"},{"id":"ilan-003","deal":"sale","type":"villa","rooms":"5+2","m2":320,"price":18900000,"dk":"bodrum","date":"2026-10-18","title":{"tr":"Havuzlu müstakil villa","en":"Detached villa with pool","ar":"فيلا مستقلة مع مسبح"},"district":{"tr":"Bodrum","en":"Bodrum","ar":"بودروم"},"city":{"tr":"Muğla","en":"Mugla","ar":"موغلا"},"permit":"DEMO-48-0003"},{"id":"ilan-004","deal":"rent","type":"daire","rooms":"1+1","m2":55,"price":22500,"dk":"karsiyaka","date":"2026-10-15","title":{"tr":"Eşyalı 1+1 kiralık daire","en":"Furnished 1+1 apartment for rent","ar":"شقة 1+1 مفروشة للإيجار"},"district":{"tr":"Karşıyaka","en":"Karsiyaka","ar":"قارشيياكا"},"city":{"tr":"İzmir","en":"Izmir","ar":"إزمير"},"permit":"DEMO-35-0004"},{"id":"ilan-005","deal":"sale","type":"arsa","rooms":"","m2":600,"price":3200000,"dk":"urla","date":"2026-10-11","title":{"tr":"İmarlı satılık arsa","en":"Zoned plot for sale","ar":"أرض مخططة للبيع"},"district":{"tr":"Urla","en":"Urla","ar":"أورلا"},"city":{"tr":"İzmir","en":"Izmir","ar":"إزمير"},"permit":"DEMO-35-0005"},{"id":"ilan-006","deal":"rent","type":"isyeri","rooms":"","m2":120,"price":65000,"dk":"sisli","date":"2026-10-08","title":{"tr":"Merkezi plazada kiralık ofis katı","en":"Office floor for rent in a central business tower","ar":"طابق مكتبي للإيجار في برج أعمال مركزي"},"district":{"tr":"Şişli","en":"Sisli","ar":"شيشلي"},"city":{"tr":"İstanbul","en":"Istanbul","ar":"إسطنبول"},"permit":"DEMO-34-0006"},{"id":"ilan-007","deal":"sale","type":"daire","rooms":"2+1","m2":100,"price":4150000,"dk":"nilufer","date":"2026-10-05","title":{"tr":"Site içinde 2+1 daire","en":"2+1 apartment in a gated complex","ar":"شقة 2+1 داخل مجمع سكني مسوّر"},"district":{"tr":"Nilüfer","en":"Nilufer","ar":"نيلوفر"},"city":{"tr":"Bursa","en":"Bursa","ar":"بورصة"},"permit":"DEMO-16-0007"},{"id":"ilan-008","deal":"sale","type":"rezidans","rooms":"1+1","m2":62,"price":3250000,"dk":"cankaya","date":"2026-10-02","title":{"tr":"Merkezi konumda 1+1 rezidans","en":"1+1 residence in a central location","ar":"وحدة 1+1 في مجمّع سكني بموقع مركزي"},"district":{"tr":"Çankaya","en":"Cankaya","ar":"تشانكايا"},"city":{"tr":"Ankara","en":"Ankara","ar":"أنقرة"},"permit":"DEMO-06-0008"},{"id":"ilan-009","deal":"sale","type":"daire","rooms":"4+1","m2":210,"price":9400000,"dk":"cesme","date":"2026-09-28","title":{"tr":"Teraslı 4+1 dubleks daire","en":"4+1 duplex apartment with terrace","ar":"شقة دوبلكس 4+1 مع تراس"},"district":{"tr":"Çeşme","en":"Cesme","ar":"تشيشمه"},"city":{"tr":"İzmir","en":"Izmir","ar":"إزمير"},"permit":"DEMO-35-0009"}]}</script>
+  </div>
+</section>
+<noscript><style>.b0000-ilan-card[hidden]{display:flex}.b0000-ilan-toggle{display:none}.b0000-ilan-panel{display:none}</style></noscript>
+
+
+
+<script>
+(function () {
+  var kok = document.getElementById("b0000-ilan-s5nxlr");
+  var veriEl = document.getElementById("b0000-ilan-s5nxlr-veri");
+  if (!kok || !veriEl) { return; }
+  var veri;
+  try { veri = JSON.parse(veriEl.textContent); } catch (e) { return; }
+  var cfg = veri.cfg || {};
+
+  function hazir(fn) {
+    if (window.mxLoad) { fn(); }
+    else if (document.readyState === "complete") { setTimeout(fn, 50); }
+    else { window.addEventListener("load", fn); }
+  }
+
+  function q(sel, ctx) { return (ctx || kok).querySelector(sel); }
+  function qa(sel, ctx) { return (ctx || kok).querySelectorAll(sel); }
+  function dizi(nl) { var o = []; for (var i = 0; i < nl.length; i++) { o.push(nl[i]); } return o; }
+
+  function basla() {
+    var MxF = window.MxFiltre;
+    if (!MxF) { return; }
+    var liste = q("[data-ilan-list]");
+    var bos = q("[data-ilan-empty]");
+    var durumEl = q("[data-ilan-status]");
+    var sayfaNav = q("[data-ilan-pages]");
+    var araEl = q("[data-ilan-q]");
+    var sirEl = q("[data-ilan-sort]");
+    var toggleEl = q("[data-ilan-toggle]");
+    var panel = q("[data-ilan-toggle]") ? document.getElementById(q("[data-ilan-toggle]").getAttribute("aria-controls")) : null;
+    var rozet = q("[data-ilan-active]");
+    var kartlar = {};
+    dizi(qa("[data-id]", liste)).forEach(function (el) { kartlar[el.getAttribute("data-id")] = el; });
+    var sonSayfa = 0;
+    var kullaniciSayfa = false;
+
+    var f = MxF.olustur({
+      items: veri.items || [],
+      arama: { alanlar: ["title", "district", "city", "permit"] },
+      facets: {
+        deal: { tip: "tek" },
+        type: { tip: "coklu" },
+        rooms: { tip: "coklu" },
+        m2: { tip: "aralik" },
+        price: { tip: "aralik" },
+        district: { tip: "tek", alan: "dk" }
+      },
+      siralama: {
+        date: { alan: "date", yon: -1, tip: "metin" },
+        price: { alan: "price", yon: 1 },
+        priceDesc: { alan: "price", yon: -1 },
+        m2: { alan: "m2", yon: -1 },
+        m2Asc: { alan: "m2", yon: 1 }
+      },
+      varsayilanSiralama: cfg.sort || "date",
+      sayfaBoyutu: cfg.pageSize || 9,
+      url: cfg.url !== false,
+      dil: cfg.lang || "tr"
+    });
+
+    
+    function topla(ad) {
+      var r = [];
+      dizi(qa('input[data-ilan-facet="' + ad + '"]')).forEach(function (c) { if (c.checked) { r.push(c.value); } });
+      return r;
+    }
+    function aralikOku(ad) {
+      var ins = qa('[data-ilan-range="' + ad + '"]');
+      var a = ins[0].value;
+      var b = ins[1].value;
+      if (a === "" && b === "") { return ""; }
+      return [a === "" ? null : Number(a), b === "" ? null : Number(b)];
+    }
+    var aralikZaman = null;
+    function aralikUygula(ad) {
+      if (aralikZaman) { clearTimeout(aralikZaman); }
+      aralikZaman = setTimeout(function () { var o = {}; o[ad] = aralikOku(ad); f.ayarla(o); }, 300);
+    }
+
+    kok.addEventListener("click", function (e) {
+      var t = e.target;
+      var el = t.closest ? t.closest("button") : null;
+      if (!el || !kok.contains(el)) { return; }
+      if (el.hasAttribute("data-ilan-deal")) {
+        f.ayarla({ deal: el.getAttribute("data-ilan-deal") });
+      } else if (el.hasAttribute("data-ilan-reset")) {
+        f.sifirla();
+        if (araEl) { araEl.value = ""; }
+      } else if (el.hasAttribute("data-ilan-toggle")) {
+        var acik = panel && panel.classList.toggle("is-open");
+        el.setAttribute("aria-expanded", acik ? "true" : "false");
+      } else if (el.hasAttribute("data-ilan-page")) {
+        kullaniciSayfa = true;
+        f.sayfaGit(Number(el.getAttribute("data-ilan-page")));
+      }
+    });
+    kok.addEventListener("change", function (e) {
+      var t = e.target;
+      if (t.hasAttribute("data-ilan-sort")) {
+        f.sirala(t.value);
+      } else if (t.getAttribute("data-ilan-facet") === "district") {
+        f.ayarla({ district: t.value });
+      } else if (t.getAttribute("data-ilan-facet")) {
+        var ad = t.getAttribute("data-ilan-facet");
+        var o = {};
+        o[ad] = topla(ad);
+        f.ayarla(o);
+      } else if (t.getAttribute("data-ilan-range")) {
+        aralikUygula(t.getAttribute("data-ilan-range"));
+      }
+    });
+    kok.addEventListener("input", function (e) {
+      var t = e.target;
+      if (t.getAttribute && t.getAttribute("data-ilan-range")) { aralikUygula(t.getAttribute("data-ilan-range")); }
+    });
+    if (araEl) { MxF.aramaBagla(araEl, f, 200); }
+
+    
+    function sayfaDugmesi(etiket, sayfa, ozellik) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "b0000-ilan-pg";
+      b.setAttribute("data-ilan-page", String(sayfa));
+      if (ozellik.aria) { b.setAttribute("aria-label", ozellik.aria); }
+      if (ozellik.simge) {
+        var ic = document.createElement("span");
+        ic.className = "material-symbols-outlined mx-flip";
+        ic.setAttribute("aria-hidden", "true");
+        ic.textContent = ozellik.simge;
+        b.appendChild(ic);
+      } else {
+        b.textContent = etiket;
+      }
+      if (ozellik.gecerli) { b.setAttribute("aria-current", "page"); }
+      if (ozellik.pasif) { b.disabled = true; }
+      return b;
+    }
+    function sayfalariCiz(s) {
+      sayfaNav.innerHTML = "";
+      if (s.sayfaSayisi <= 1) { sayfaNav.hidden = true; return; }
+      sayfaNav.hidden = false;
+      sayfaNav.appendChild(sayfaDugmesi("", s.sayfa - 1, { simge: "chevron_left", aria: cfg.prevPage, pasif: s.sayfa <= 1 }));
+      var son = 0;
+      for (var n = 1; n <= s.sayfaSayisi; n++) {
+        var goster = n === 1 || n === s.sayfaSayisi || Math.abs(n - s.sayfa) <= 1;
+        if (!goster) { continue; }
+        if (son && n - son > 1) {
+          var g = document.createElement("span");
+          g.className = "b0000-ilan-gap";
+          g.setAttribute("aria-hidden", "true");
+          g.textContent = "…";
+          sayfaNav.appendChild(g);
+        }
+        sayfaNav.appendChild(sayfaDugmesi(String(n), n, { aria: String(cfg.pageN || "").replace("{n}", String(n)), gecerli: n === s.sayfa }));
+        son = n;
+      }
+      sayfaNav.appendChild(sayfaDugmesi("", s.sayfa + 1, { simge: "chevron_right", aria: cfg.nextPage, pasif: s.sayfa >= s.sayfaSayisi }));
+    }
+
+    function guncelle(s) {
+      var d = s.durum;
+      var i;
+      
+      dizi(qa("[data-ilan-deal]")).forEach(function (b) {
+        var acik = (d.facet.deal || "") === b.getAttribute("data-ilan-deal");
+        b.classList.toggle("is-on", acik);
+        b.setAttribute("aria-pressed", acik ? "true" : "false");
+      });
+      
+      ["type", "rooms"].forEach(function (ad) {
+        var secili = d.facet[ad] || [];
+        dizi(qa('input[data-ilan-facet="' + ad + '"]')).forEach(function (c) { c.checked = secili.indexOf(c.value) > -1; });
+      });
+      var sem = q('select[data-ilan-facet="district"]');
+      if (sem) { sem.value = d.facet.district || ""; }
+      ["m2", "price"].forEach(function (ad) {
+        var ins = qa('[data-ilan-range="' + ad + '"]');
+        var r = d.facet[ad];
+        for (var k = 0; k < ins.length; k++) {
+          if (document.activeElement === ins[k]) { continue; }
+          ins[k].value = r && r[k] !== null && r[k] !== undefined ? r[k] : "";
+        }
+      });
+      if (sirEl) { sirEl.value = d.sirala; }
+      if (araEl && document.activeElement !== araEl) { araEl.value = d.q || ""; }
+      
+      var onbellek = {};
+      dizi(qa("[data-ilan-count]")).forEach(function (sp) {
+        var parca = sp.getAttribute("data-ilan-count").split(":");
+        var ad = parca[0];
+        var anahtar = parca[1];
+        if (!onbellek[ad]) { onbellek[ad] = f.sayim(ad); }
+        var n = 0;
+        if (anahtar === "") { for (var kk in onbellek[ad]) { if (Object.prototype.hasOwnProperty.call(onbellek[ad], kk)) { n += onbellek[ad][kk]; } } }
+        else { n = onbellek[ad][anahtar] || 0; }
+        sp.textContent = String(n);
+        var opt = sp.closest ? sp.closest(".b0000-ilan-opt") : null;
+        if (opt) { opt.classList.toggle("is-zero", n === 0); }
+      });
+      
+      for (var id in kartlar) { if (Object.prototype.hasOwnProperty.call(kartlar, id)) { kartlar[id].hidden = true; } }
+      for (i = 0; i < s.liste.length; i++) {
+        var el = kartlar[s.liste[i].id];
+        if (el) { el.hidden = false; liste.appendChild(el); }
+      }
+      liste.hidden = s.toplam === 0;
+      bos.hidden = s.toplam !== 0;
+      
+      var formlar = (cfg.resultCount && (cfg.resultCount[cfg.lang] || cfg.resultCount.tr)) || { other: "{n}" };
+      durumEl.textContent = MxF.cogul(s.toplam, formlar, cfg.lang);
+      sayfalariCiz(s);
+      
+      var say = d.q ? 1 : 0;
+      for (var fa in d.facet) { if (Object.prototype.hasOwnProperty.call(d.facet, fa)) { say++; } }
+      if (rozet) { rozet.hidden = say === 0; rozet.textContent = String(say); }
+      dizi(qa("[data-ilan-reset]")).forEach(function (b) { if (!b.closest || !b.closest("[data-ilan-empty]")) { b.hidden = !f.filtreVar(); } });
+      
+      if (kullaniciSayfa && sonSayfa && s.sayfa !== sonSayfa) {
+        var azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var ust = liste.getBoundingClientRect().top;
+        if (ust < 0 || ust > window.innerHeight) { durumEl.scrollIntoView({ behavior: azalt ? "auto" : "smooth", block: "start" }); }
+      }
+      kullaniciSayfa = false;
+      sonSayfa = s.sayfa;
+    }
+    f.abone(guncelle);
+    guncelle(f.sonuc());
+  }
+
+  hazir(function () {
+    if (window.MxFiltre) { basla(); }
+    else if (window.mxLoad) { window.mxLoad("mxfiltre").then(basla, function () {}); }
+  });
+})();
+</script>
+</div>
+  <div id="footer"><footer class="f0000-f9" role="contentinfo">
+  <div class="f0000-f9__main f0000-f9__main--c3">
+    <div class="f0000-f9__col f0000-f9__brand">
+      <a href="/en/" class="f0000-f9__logo f0000-f9__logo--plate" aria-label="Home - Yuva Nokta">
+        <img src="/img/logo.png" alt="Yuva Nokta Logo" loading="lazy" />
+      </a>
+      <p class="f0000-f9__about">First-time-buyer and tenant friendly listings; authorization number on every listing (sample). Fictional demo brand.</p>
+    </div>
+    <nav class="f0000-f9__col f0000-f9__pages" aria-label="Navigation">
+      <h3 class="f0000-f9__title">Pages</h3>
+      <ul class="f0000-f9__list">
+        <li><a class="f0000-f9__link" href="/en/">Home</a></li><li><a class="f0000-f9__link" href="/en/ilanlar/">Listings</a></li><li><a class="f0000-f9__link" href="/en/projeler/">Projects</a></li><li><a class="f0000-f9__link" href="/en/danismanlarimiz/">Advisors</a></li><li><a class="f0000-f9__link" href="/en/degerleme/">Valuation</a></li><li><a class="f0000-f9__link" href="/en/ofislerimiz/">Office</a></li><li><a class="f0000-f9__link" href="/en/iletisim/">Contact</a></li><li><a class="f0000-f9__link" href="/en/ilan/">Listing Details</a></li>
+      </ul>
+    </nav>
+    <div class="f0000-f9__col f0000-f9__contact"><h3 class="f0000-f9__title">Contact</h3><ul class="f0000-f9__list"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>44 Kibris Sehitleri Avenue, Alsancak, Izmir (fictional address)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f9__link" href="tel:+902320000031" dir="ltr">+90 232 000 00 31</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f9__link" href="mailto:merhaba@yuvanokta.example">merhaba@yuvanokta.example</a></li></ul></div>
+    
+  </div>
+  <div class="f0000-f9__bottom">
+    <p class="f0000-f9__rights">&copy; 2026 Yuva Nokta. All rights reserved.</p>
+    <ul class="f0000-f9__legal"><li><a class="f0000-f9__link" href="/en/hakkimizda/">About us</a></li><li><a class="f0000-f9__link" href="/en/kisiselveriler/">Personal data</a></li></ul>
+    <nav class="wm-langbar" aria-label="Language Selector"><ul><li class="wm-lang-item"><a href="/tr/ilanlar/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item wm-lang-active"><a href="/en/ilanlar/" hreflang="en" lang="en" aria-current="true">EN</a></li><li class="wm-lang-item"><a href="/ar/ilanlar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+  </div>
+</footer>
+
+<div class="f0001-dk" role="contentinfo" aria-label="Demo credit">
+  <p class="f0001-dk-text">This demo was prepared by <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#emlak-3" target="_blank" rel="noopener noreferrer"><span>Get this theme</span><span class="mx-visually-hidden"> (opens in a new tab)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="Company &amp; Legal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #FFFAFB);color:var(--mx-site-text, #111111);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #111111)">Company &amp; Legal</strong><a href="/en/misyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Mission</a><a href="/en/vizyon/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Vision</a><a href="/en/kalitepolitikamiz/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Quality Policy</a><a href="/en/gizlilikpolitikasi/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Privacy Policy</a><a href="/en/kullanicahaklari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">User Rights</a><a href="/en/yasaluyari/" style="color:var(--mx-site-text, #111111);padding:6px 0;text-decoration:underline;min-width:0">Legal Notice</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=isjjj"></script>
+  <script defer src="/src/mx-store.js?v=isjjj"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=isjjj"></script>
+  <script defer src="/src/cookie.js?v=isjjj"></script>
+
+</body>
+
+</html>

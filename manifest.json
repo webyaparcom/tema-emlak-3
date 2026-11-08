@@ -1,0 +1,29 @@
+{
+  "name": "Yuva Nokta",
+  "short_name": "Yuva Nokta",
+  "description": "Yuva Nokta: ilk ev alıcısı ve kiracı dostu satılık-kiralık ilanlar; her ilanda yetki belgesi numarası, çevrimiçi gösterim randevusu. (Demo site)",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#BE2A4F",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
