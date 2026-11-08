@@ -525,6 +525,17 @@
       transition: none !important;
     }
   }
+
+  /* 8 Kas 2026: logo gorseli acik zemin icin cizilmis (koyu yazi, saydam); koyu modda koyu header uzerinde 1:1 kayboluyordu (saas 'Akispano').
+     Koyu modda logoya acik plaka. */
+  @media (prefers-color-scheme: dark) {
+    .modulexbodylogo {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+  }
 </style>
 <script>
   setTimeout(function() {
