@@ -25,7 +25,7 @@
     "0chtne"
   ],
   "headtop": "",
-  "headbottom": "<style>#header > [class*=\"-m10\"]:not([class*=\"-m10-sabit\"]){top:var(--mx-demo-bandi-h,48px)}</style><style>@media (min-width:769px){[class$=\"-ilan-panel\"]{display:block}}[id$=\"-ilan-9xuip9-panel\"]{display:none!important}[class$=\"-ilan-layout\"]:has([id$=\"-ilan-9xuip9-panel\"]){grid-template-columns:minmax(0,1fr)}[class$=\"-ilan\"]:has([id$=\"-ilan-9xuip9-panel\"]) [class$=\"-ilan-toggle\"]{display:none!important}</style>",
+  "headbottom": "<style>#header > [class*=\"-m10\"]:not([class*=\"-m10-sabit\"]){top:var(--mx-demo-bandi-h,48px)}</style><style>@media (min-width:769px){[class$=\"-ilan-panel\"]{display:block}}[id$=\"-ilan-9xuip9-panel\"]{display:none!important}[class$=\"-ilan-layout\"]:has([id$=\"-ilan-9xuip9-panel\"]){grid-template-columns:minmax(0,1fr)}[class$=\"-ilan\"]:has([id$=\"-ilan-9xuip9-panel\"]) [class$=\"-ilan-toggle\"]{display:none!important}</style><style id=\"wy-demo-bandi-menu\">#header>header[class*=\"-m10\"]:not([class*=\"-akista\"]){top:var(--mx-demo-bandi-h,0px)}</style>",
   "colors": {
     "lite": [
       {

@@ -375,6 +375,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "id": "cpwcjy",
@@ -683,11 +689,11 @@
         {
           "deger": 30,
           "onek": "",
-          "sonek": " dk",
+          "sonek": "",
           "etiket": {
-            "tr": "Gösterim süresi",
-            "en": "Viewing slot",
-            "ar": "دقيقة لمدة المعاينة"
+            "tr": "Dakika gösterim süresi",
+            "en": "Minutes per viewing",
+            "ar": "دقيقة لكل معاينة"
           },
           "aciklama": {
             "tr": "Çevrimiçi randevu",
@@ -1060,7 +1066,34 @@
             "url": "",
             "date": "2026-10-18"
           }
-        ]
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        }
       },
       "tags": [
         "emlak",
@@ -1606,7 +1639,34 @@
             "url": "",
             "date": "2026-09-28"
           }
-        ]
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        }
       },
       "tags": [
         "emlak",
@@ -4407,7 +4467,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "id": "zrnamx",
@@ -4419,7 +4480,7 @@
       "name": "Footer 9 — Kurumsal",
       "desing": {
         "showlang": true,
-        "maxpages": 8,
+        "maxpages": 6,
         "bgcolor": "var(--mx-site-primary, #BE2A4F)",
         "color": "var(--mx-site-primary-contrast, #ffffff)",
         "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 94%, transparent)",
